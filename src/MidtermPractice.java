@@ -60,7 +60,16 @@ public class MidtermPractice {
      * Example: input: {"a"=7, "x"=4, "z"=5} -> output: 2
      */
     public static int countOddNumbers(Map<String, Integer> map) {
-        return -1;
+        int count = 0;
+
+        for (int num : map.values()) {
+
+             if (num % 2 != 0) {
+                count++;
+        }
+           
+            }
+        return count;
     }
 
     /**
